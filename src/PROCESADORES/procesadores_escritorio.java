@@ -1,28 +1,26 @@
 package PROCESADORES;
 
-public class procesadores_escritorio {
+public class Procesadores_escritorio  extends procesadores{
     String socket;
+    public Procesadores_escritorio() {
 
-
-    public procesadores_escritorio(String nombre) {
     }
-
-    public procesadores_escritorio(int nucleos, double consumo, double velocidad, String nombre, String socket) {
-        super(nucleos,consumo,velocidad,nombre);
+    public Procesadores_escritorio(int nucleos, Double consumo, Double velocidad, String nombre,String socket) {
+        super(nucleos, consumo, velocidad, nombre);
         this.socket = socket;
+
     }
 
-    public String getsocket() {
+    public String getSocket() {
         return socket;
     }
 
-    public void setsocket(String socket) {
+    public void setSocket(String socket) {
         this.socket = socket;
     }
-
-    public void imprimir_
-
-
-
+    public void imprimir_datos_escritorio(){
+        
+        System.out.println("Socket: " + socket);
+    }
 
 }
