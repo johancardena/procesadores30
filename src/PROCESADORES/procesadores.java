@@ -49,6 +49,7 @@ public class procesadores {
 
 
     public void imprimir_datos(){
+        System.out.println("***** Procesadores *****");
         System.out.println("Nucleos: " + nucleos);
         System.out.println("Consumo: " + consumo);
         System.out.println("Velocidad: " + velocidad);
